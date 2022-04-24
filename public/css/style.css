@@ -1,0 +1,43 @@
+
+
+
+
+.card-container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+   width: 350px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 0px;
+    max-height: 100px;
+}
+hr {
+    border: none;
+    height:1px;
+    background-color: #adb8c2;
+}
+.del-btn {
+    margin-top: 10px;
+    background-color:#f9e3e6 ;
+    color: red;
+    margin-left: 230px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#card-container {
+   min-height: 100vh; 
+    display: flex;
+    margin-top: 30px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.rights {
+    text-align:center ;
+}

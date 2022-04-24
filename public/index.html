@@ -7,6 +7,30 @@
     <title>Services</title>
     <script src="./js/services.js" defer></script>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/common.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="/" class="service-link">Services</a>
+      <a href="/">Users</a>
+    </header>
+    <div class="main">
+      <h1>Membership Management</h1>
+      <div class="card-container-header">
+        <div class="card-container-header--text-part">
+          <p>
+            Here you can manage your membership packages. Note: Make sure you are not deleting or
+            deactivating packages assigned to active users
+          </p>
+        </div>
+        <div class="card-container-header--button-part">
+          <button class="blue-btn">
+            <a class="button-text" href="add-service.html"> + New Membership</a>
+          </button>
+        </div>
+      </div>
+      <div id="card-container"></div>
+      <p class="rights">Copyright &copy2021 Membership Manager</p>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,54 @@
+form {
+max-width: 500px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    
+    
+}
+input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid #adb8c2;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+textarea{
+    
+    width: 350px;
+    border: 1px solid #adb8c2;
+    border-radius: 5px;
+    
+    
+}
+.form-part {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+
+
+}
+
+.form-btn-part {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 30px;
+    
+
+}
+.form-div {
+  display: flex;
+  justify-content: center;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }

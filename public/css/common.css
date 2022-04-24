@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+
+ 
+}
+a {
+    text-decoration: none;
+    color: #adb8c2;
+    font-weight: 500;
+}
+h1, h2, h3,h4, h5 p, a {
+    padding: 0;
+    margin: 0;
+}
+h1, p {
+    font-weight: 100;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 100;
+}
+h1 {
+    font-size: 1.7em;
+}
+button {
+    color: white;
+    background-color: #8190eb;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.main {
+    margin-top: 20px;
+    padding: 30px 100px;
+    padding-bottom: 20px;
+    background-color: #edf2f6;
+}
+.button-text {
+    color: white;
+    white-space: nowrap;
+}
+.blue-btn {
+    padding: 10px 20px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.cancel-btn {
+    border: none;
+    color: black;
+    background: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.service-link {
+    text-decoration: none;
+    color: #8190eb;
+}
