@@ -1,8 +1,8 @@
+import { BASE_URL } from './modules/config.js';
 import { renderCards } from './modules/html.js';
 
-const BASE_URL = 'http://localhost:3000/api';
-
 const cardContainerEl = document.querySelector('.cards-container');
+const addBtnEl = document.querySelector('.btn-add');
 
 async function getServices() {
   try {
@@ -17,4 +17,19 @@ async function getServices() {
   }
 }
 
+export async function deleteService(idToDelete) {
+  try {
+    const resp = await fetch(`${BASE_URL}/services/${idToDelete}`, {
+      method: 'DELETE',
+    });
+    if (resp.ok === false) throw new Error('error is deleting');
+    getServices();
+  } catch (error) {
+    console.warn('error ===', error);
+  }
+}
+
+addBtnEl.addEventListener('click', () => {
+  window.location.href = 'add-service.html';
+});
 getServices();

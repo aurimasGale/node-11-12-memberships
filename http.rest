@@ -15,8 +15,12 @@ Content-Type: application/json
 ###
 #### delete single service by id
 
-DELETE  http://localhost:3000/api/services/626148649d9556256306993b
+DELETE  http://localhost:3000/api/services/6265bd27125d29a8ad9b978d
 ###
 
 #### Users
+
+
+GET http://localhost:3000/api/users
+###
 
