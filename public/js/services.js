@@ -8,12 +8,17 @@ function renderCards(arr) {
     cardEl.className = 'card';
     const priceEl = document.createElement('h3');
     priceEl.textContent = `$${arrObj.price} ${arrObj.name}`;
+
     const descEl = document.createElement('p');
     descEl.textContent = arrObj.description;
+
     const hrEl = document.createElement('hr');
     const delBtnEl = document.createElement('button');
     delBtnEl.className = 'del-btn';
-    delBtnEl.textContent = 'Del';
+    const iEl = document.createElement('i');
+    iEl.className = 'fa fa-trash';
+
+    delBtnEl.append(iEl);
     cardEl.append(priceEl, descEl, hrEl, delBtnEl);
     cardContEl.append(cardEl);
   });
